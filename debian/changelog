@@ -1,4 +1,4 @@
-juno-grub (0.1.4-3) noble; urgency=low
+juno-grub (0.1.4-3) unstable; urgency=low
 
   * Initial Release
   * Added NJx0AU
