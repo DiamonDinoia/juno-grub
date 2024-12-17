@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /usr/share/juno-grub
+cp 10-juno-grub.cfg /etc/default/grub.d/10-juno-grub.cfg
+update-grub
