@@ -2,11 +2,12 @@ Source: juno-grub
 Section: admin
 Priority: optional
 Build-Depends: debhelper
-Maintainer: Giovanni Caligaris <junocomputers@outlook.com>
+Maintainer: Giovanni Caligaris <usa@junocomputers.com>
 
 Package: juno-grub
 Section: base
 Priority: optional
 Homepage: https://www.junocomputers.com
 Architecture: all
+Depends: friendly-recovery
 Description: Grub files for Juno Computers
