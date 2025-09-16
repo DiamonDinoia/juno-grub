@@ -1,9 +1,9 @@
-juno-grub (0.1.12) unstable; urgency=low
+juno-grub (0.1.12-1) unstable; urgency=low
 
-  * Added V54x_6x_TU
   * Added X58xWNx
   * Added V25_26_27xRNP_N_M
   * Added V5x0EU & V5xxKU
   * Enabled Recovery Mode
+  * Bug Fix
 
  -- Juno <usa@junocomputers.com>  Fri, 12 Sep 2025 08:01:52 +0000
