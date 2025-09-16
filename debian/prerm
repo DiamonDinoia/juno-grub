@@ -4,4 +4,8 @@ if [ -f /etc/default/grub.d/00-juno-grub.cfg ]; then
    rm /etc/default/grub.d/00-juno-grub.cfg;
 fi
 
+if [ -f /etc/default/grub.d/10-juno-grub.cfg ]; then
+   rm /etc/default/grub.d/10-juno-grub.cfg;
+fi
+
 update-grub
