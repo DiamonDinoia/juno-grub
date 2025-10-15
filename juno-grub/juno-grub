@@ -50,6 +50,6 @@ esac
 
 case "$product_model" in
         junotab3|S1105ANR100)
-        echo "button.lid_init_state=open"
+        echo "button.lid_init_state=open i915.enable_fbc=1 i915.enable_psr=1"
         ;;
 esac
