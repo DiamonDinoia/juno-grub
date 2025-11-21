@@ -1,3 +1,10 @@
+juno-grub (0.1.14) unstable; urgency=low
+
+  * Enabled fbc and psr on tab 3
+  * Added X4HP4NAL
+
+ -- Juno <usa@junocomputers.com>  Fri, 21 Nov 2025 08:01:52 +0000
+
 juno-grub (0.1.12-1) unstable; urgency=low
 
   * Added X58xWNx
