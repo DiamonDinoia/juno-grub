@@ -1,3 +1,9 @@
+juno-grub (0.1.16) unstable; urgency=low
+
+  * Added memtest86+ dependency
+
+ -- Juno <usa@junocomputers.com>  Fri, 23 Jan 2026 08:01:52 +0000
+
 juno-grub (0.1.14) unstable; urgency=low
 
   * Enabled fbc and psr on tab 3

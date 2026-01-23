@@ -10,4 +10,5 @@ Priority: optional
 Homepage: https://www.junocomputers.com
 Architecture: all
 Depends: friendly-recovery
+Recommends: memtest86+
 Description: Grub files for Juno Computers
