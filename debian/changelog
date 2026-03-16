@@ -1,3 +1,12 @@
+juno-grub (0.1.16+local1) unstable; urgency=low
+
+  * Remove fsck.mode=force (ext4 journaling handles crash recovery)
+  * Reduce GRUB_TIMEOUT from 10 to 5
+  * postinst: don't overwrite user-modified grub config on upgrade
+  * Bump debhelper compat 9 → 13
+
+ -- Marco Barbone <mbarbone@flatironinstitute.org>  Mon, 16 Mar 2026 17:00:00 +0000
+
 juno-grub (0.1.16) unstable; urgency=low
 
   * Added memtest86+ dependency

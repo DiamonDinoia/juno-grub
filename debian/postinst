@@ -2,5 +2,11 @@
 
 cd /usr/share/juno-grub
 chmod a+x juno-grub
-cp 10-juno-grub.cfg /etc/default/grub.d/10-juno-grub.cfg
+
+# Only install the grub config if it doesn't already exist.
+# This prevents clobbering user modifications on upgrade.
+if [ ! -f /etc/default/grub.d/10-juno-grub.cfg ]; then
+    cp 10-juno-grub.cfg /etc/default/grub.d/10-juno-grub.cfg
+fi
+
 update-grub
